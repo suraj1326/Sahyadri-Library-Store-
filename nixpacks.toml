@@ -1,0 +1,6 @@
+[languages]
+java = "17"
+
+[steps]
+build = ["./mvnw clean install -DskipTests=true"]
+start = ["java -jar target/bookstore-1.0-SNAPSHOT.jar"]
